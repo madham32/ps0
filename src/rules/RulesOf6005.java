@@ -38,7 +38,7 @@ public class RulesOf6005 {
         
         // TODO: Fill in this method, then remove the exception
     	
-    	if (!writtenByYourself && !availableToOthers && writtenAsCourseWork && citingYourSource && implementationRequired) {
+    	if (writtenByYourself && !availableToOthers && writtenAsCourseWork && citingYourSource && implementationRequired) {
     		return true;
     	}
     	else {return false;}
